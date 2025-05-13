@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero-section {
+  background: linear-gradient(120deg, #5f67ff, #7d98ff);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 12px 30px;
+  background-color: #fff;
+  color: #5f67ff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+.features-section {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.features-section ul {
+  list-style: none;
+}
+
+.features-section li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.signup-section {
+  background-color: #eef3ff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.signup-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+form input[type="email"] {
+  padding: 12px;
+  width: 60%;
+  max-width: 400px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 12px 20px;
+  background-color: #5f67ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #3b3fda;
+}
+
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
